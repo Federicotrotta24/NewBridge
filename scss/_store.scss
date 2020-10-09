@@ -1,0 +1,67 @@
+.list-hours {
+  font-size: 0.9rem;
+  .list-hours-item {
+    border-bottom: 1px solid fade-out($primary, 0.5);
+    padding-bottom: .25rem;
+    margin-bottom: 1rem;
+    font-style: italic;
+    &.today {
+      font-weight: bold;
+      color: $primary;
+    }
+  }
+  @media(min-width: 992px) {
+    width: 50%;
+    font-size: 1.1rem;
+  }
+}
+
+.address {
+  strong {
+    font-size: 1.2rem;
+  }
+}
+
+#contacto{
+  a{
+    & span{
+      color: $secondary;
+      font-family: 'Raleway';
+    }
+  }
+  a:hover{
+    text-decoration: none;
+    i:hover{
+      color: $tertiary;
+    }
+  & span{
+    color: $tertiary;
+  }
+  }
+  i{
+    color: $secondary;
+   
+  }
+}
+
+#wp{
+  margin-top: 1rem;
+  margin-left: 0.65rem;
+  margin-right: 0.7rem;
+
+}
+#ig{
+  margin-top: 1rem;
+  margin-left: 0.8rem;
+  margin-right: 1rem;
+}
+#fb{
+  margin-top: 1rem;
+  margin-left: 0.75rem;
+  margin-right: 0.9rem;
+}
+#loc{
+  margin-top: 1rem;
+  margin-left: 0.75rem;
+  margin-right: 0.9rem;
+}
